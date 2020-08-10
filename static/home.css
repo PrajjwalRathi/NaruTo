@@ -1,0 +1,65 @@
+body{
+    background: url("car.jpg") center;
+    width: 1280px;
+    height: 720px;
+    background-size:cover;
+}
+.adi{
+    text-align:center;
+    padding-left: 190px;
+}
+h1 {
+  font-size: 72px;
+  background-image: -webkit-linear-gradient(#000428, #004e92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.avatar
+{
+    width: 320px;
+    height: 340px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+.avatar p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.avatar input
+{
+    width:100%;
+    margin-bottom: 20px;
+}
+.avatar input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+.avatar input[type='submit']
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: firebrick;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.avatar input[type='submit']:hover
+{
+    cursor: pointer;
+    background: yellow;
+    color: #000000;
+
+}
